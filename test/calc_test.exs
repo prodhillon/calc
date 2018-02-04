@@ -1,5 +1,5 @@
 # HW 04 : Calculator in Elixir (Test Functions)
-# The code is implemented  as test functions for calc.ex and calls eval method and asserts the output
+# The code is implemented  as test functions for calc.ex and calls eval, calculateResult method and asserts the output
 # References taken for learning Elixir testing:
 # https://elixirschool.com/en/lessons/basics/testing/
 
