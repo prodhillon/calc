@@ -36,4 +36,21 @@ defmodule Calc_test do
     input = "1 + 3 * 3 + 1"
     assert Calc.eval(input) == "11"
   end
+
+  test "testCalculationFunctionMul" do
+    assert Calc.calculateResult("2", "*", "2") =="4"
+  end
+
+  test "testCalculationFunctionAdd" do
+    assert Calc.calculateResult("2", "+", "9") =="11"
+  end
+
+  test "testCalculationFunctionSub" do
+    assert Calc.calculateResult("2", "-", "2") =="0"
+  end
+
+  test "testCalculationFunctionDiv" do
+    assert Calc.calculateResult("8", "/", "2") =="4"
+  end
+
 end
